@@ -1,0 +1,206 @@
+Index: 01_funktsioon/KodutooNaide2/KodutooNaide.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/01_funktsioon/KodutooNaide2/KodutooNaide.iml b/01_funktsioon/KodutooNaide2/KodutooNaide.iml
+new file mode 100644
+--- /dev/null	(date 1707225678000)
++++ b/01_funktsioon/KodutooNaide2/KodutooNaide.iml	(date 1707225678000)
+@@ -0,0 +1,11 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="JAVA_MODULE" version="4">
++  <component name="NewModuleRootManager" inherit-compiler-output="true">
++    <exclude-output />
++    <content url="file://$MODULE_DIR$">
++      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
++    </content>
++    <orderEntry type="inheritedJdk" />
++    <orderEntry type="sourceFolder" forTests="false" />
++  </component>
++</module>
+\ No newline at end of file
+Index: .idea/oo2024.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/oo2024.iml b/.idea/oo2024.iml
+new file mode 100644
+--- /dev/null	(date 1707758935155)
++++ b/.idea/oo2024.iml	(date 1707758935155)
+@@ -0,0 +1,9 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="JAVA_MODULE" version="4">
++  <component name="NewModuleRootManager" inherit-compiler-output="true">
++    <exclude-output />
++    <content url="file://$MODULE_DIR$" />
++    <orderEntry type="inheritedJdk" />
++    <orderEntry type="sourceFolder" forTests="false" />
++  </component>
++</module>
+\ No newline at end of file
+Index: 01_funktsioon/01_funktsioon.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/01_funktsioon/01_funktsioon.iml b/01_funktsioon/01_funktsioon.iml
+new file mode 100644
+--- /dev/null	(date 1707758935232)
++++ b/01_funktsioon/01_funktsioon.iml	(date 1707758935232)
+@@ -0,0 +1,11 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="JAVA_MODULE" version="4">
++  <component name="NewModuleRootManager" inherit-compiler-output="true">
++    <exclude-output />
++    <content url="file://$MODULE_DIR$">
++      <sourceFolder url="file://$MODULE_DIR$/kodutooNaide/src" isTestSource="false" />
++    </content>
++    <orderEntry type="inheritedJdk" />
++    <orderEntry type="sourceFolder" forTests="false" />
++  </component>
++</module>
+\ No newline at end of file
+Index: .idea/modules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/modules.xml b/.idea/modules.xml
+new file mode 100644
+--- /dev/null	(date 1707758935267)
++++ b/.idea/modules.xml	(date 1707758935267)
+@@ -0,0 +1,10 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectModuleManager">
++    <modules>
++      <module fileurl="file://$PROJECT_DIR$/01_funktsioon/01_funktsioon.iml" filepath="$PROJECT_DIR$/01_funktsioon/01_funktsioon.iml" />
++      <module fileurl="file://$PROJECT_DIR$/Game/Game.iml" filepath="$PROJECT_DIR$/Game/Game.iml" />
++      <module fileurl="file://$PROJECT_DIR$/.idea/oo2024.iml" filepath="$PROJECT_DIR$/.idea/oo2024.iml" />
++    </modules>
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+new file mode 100644
+--- /dev/null	(date 1707758935307)
++++ b/.idea/vcs.xml	(date 1707758935307)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="" vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+new file mode 100644
+--- /dev/null	(date 1707760161653)
++++ b/.idea/misc.xml	(date 1707760161653)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectRootManager" version="2" project-jdk-name="openjdk-21" project-jdk-type="JavaSDK">
++    <output url="file://$PROJECT_DIR$/out" />
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/.gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/.gitignore b/.idea/.gitignore
+new file mode 100644
+--- /dev/null	(date 1707758936449)
++++ b/.idea/.gitignore	(date 1707758936449)
+@@ -0,0 +1,3 @@
++# Default ignored files
++/shelf/
++/workspace.xml
+Index: 01_funktsioon/kodutooNaide/src/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>//TIP To <b>Run</b> code, press <shortcut actionId=\"Run\"/> or\r\n// click the <icon src=\"AllIcons.Actions.Execute\"/> icon in the gutter.\r\npublic class Main {\r\n    public static void main(String[] args) {\r\n\r\n        double kogumaksumus1 = arvutaTaksoMaksumus(3);\r\n        double kogumaksumus2 = arvutaTaksoMaksumus(2);\r\n\r\n        }\r\n\r\n        private static double arvutaTaksoMaksumus(int tunnid){\r\n            return 3 + 0.9*tunnid;\r\n\r\n        private static String temperatuuriHinnang(double temp){\r\n    }\r\n}\r\n//kodus vähemalt 3 funktsiooni .... pildil\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/01_funktsioon/kodutooNaide/src/Main.java b/01_funktsioon/kodutooNaide/src/Main.java
+--- a/01_funktsioon/kodutooNaide/src/Main.java	(revision 4e5e38f6d3812cbcd35b790105a5c105b82bbd3f)
++++ b/01_funktsioon/kodutooNaide/src/Main.java	(date 1707763215508)
+@@ -2,17 +2,54 @@
+ // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+ public class Main {
+     public static void main(String[] args) {
++        // KODUS: 3 funktsiooni, milles on kasutatud vähemalt:
++        // 4 erinevat tüüpi:
++        // void, String, int, char, long, double, float, boolean
++        // Näiteks:
++        // tagastab int    parameetriks boolean
++        // tagastab void   parameetriks boolean, int
++        // tagastab String parameetriks String
++        // Teha igast funktsioonist 2 erineva sisendiga väljakutset
+ 
++
++        // Näitekood:
+         double kogumaksumus1 = arvutaTaksoMaksumus(3);
+-        double kogumaksumus2 = arvutaTaksoMaksumus(2);
++        System.out.println(kogumaksumus1);
++        double kogumaksumus2 = arvutaTaksoMaksumus(1);
++        System.out.println(kogumaksumus2);
++
++        System.out.println();
+ 
+-        }
++        String temperatuur1 = temperatuuriHinnang(-1.2);
++        System.out.println(kogumaksumus1);
++        String temperatuur2 = temperatuuriHinnang(23);
++        System.out.println(kogumaksumus2);
++
++        System.out.println("Maarja");
++
++        prindiForTsykkel("Pikk sõna");
++        System.out.println();
++        prindiForTsykkel("Sõna");
++    }
+ 
+-        private static double arvutaTaksoMaksumus(int tunnid){
+-            return 3 + 0.9*tunnid;
++    // Näitekoodid:
++    private static double arvutaTaksoMaksumus(int tunnid) {
++        return 3 + 0.9*tunnid;
++    }
+ 
+-        private static String temperatuuriHinnang(double temp){
+-    }
+-}
+-//kodus vähemalt 3 funktsiooni .... pildil
++    private static String temperatuuriHinnang(double temp) {
++        if (temp < 0) {
++            return "Vesi on jääs";
++        } else if (temp > 20) {
++            return "Vesi on soe";
++        } else {
++            return "Vesi on meh";
++        }
++    }
+ 
++    private static void prindiForTsykkel(String tahtedeArv) {
++        for (int i = 0; i < tahtedeArv.length(); i++) {
++            System.out.print(i);
++        }
++    }
++}
+\ No newline at end of file
