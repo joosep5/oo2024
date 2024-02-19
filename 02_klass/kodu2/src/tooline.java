@@ -2,19 +2,20 @@ public class tooline {
     String nimi;
     boolean aktiivne;
     int vanus;
-    char lyhend;
     double raha;
 
-    public tooline(String nimi, boolean aktiivne, int vanus, char lyhend, double raha) {
+    public tooline(String nimi, boolean aktiivne, int vanus, double raha) {
         this.nimi = nimi;
         this.aktiivne = aktiivne;
         this.vanus = vanus;
-        this.lyhend = lyhend;
         this.raha = raha;
 
     }
-    public void muudaAktiivne() {
+    public void Aktiivsus() {
         aktiivne = !aktiivne;
+    }
+    public double tooMaksumus(int raha) {
+        return 400 + raha;
     }
 
     public double lisaRaha(double summa) {
