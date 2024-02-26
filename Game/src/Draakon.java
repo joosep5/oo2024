@@ -1,9 +1,6 @@
 import java.util.Random;
 
-public class Draakon {
-    int xCoord; // deklareerin (loob + mälukoht)
-    int yCoord; // parem klõps tema peal -> refactor -> rename
-    char symbol;
+public class Draakon extends Tegelane {
 
     // constructor
     public Draakon(Random random, int kaardiKorgus, int kaardiLaius) {
