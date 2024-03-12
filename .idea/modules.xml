@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/01_funktsioon/01_funktsioon.iml" filepath="$PROJECT_DIR$/01_funktsioon/01_funktsioon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02_klass/02_klass.iml" filepath="$PROJECT_DIR$/02_klass/02_klass.iml" />
+      <module fileurl="file://$PROJECT_DIR$/03_klassikomplekt/03_klassikomplekt.iml" filepath="$PROJECT_DIR$/03_klassikomplekt/03_klassikomplekt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04_proovikontrolltoo1/FailistLugemine/FailistLugemine.iml" filepath="$PROJECT_DIR$/04_proovikontrolltoo1/FailistLugemine/FailistLugemine.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Game/Game.iml" filepath="$PROJECT_DIR$/Game/Game.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04_proovikontrolltoo1/Hulknurk/Hulknurk.iml" filepath="$PROJECT_DIR$/04_proovikontrolltoo1/Hulknurk/Hulknurk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04_proovikontrolltoo1/Proovikontrolltoo/Proovikontrolltoo.iml" filepath="$PROJECT_DIR$/04_proovikontrolltoo1/Proovikontrolltoo/Proovikontrolltoo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/oo2024.iml" filepath="$PROJECT_DIR$/.idea/oo2024.iml" />
+    </modules>
+  </component>
+</project>
