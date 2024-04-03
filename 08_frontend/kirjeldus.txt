@@ -1,1 +1,1 @@
-Alamklasside puu koos realiseerivate klasside ning näitprogrammiga
+Teha front-end, mis on sarnane koostehtud front-endiga. Siduda ära varasemalt tehtud kodutööga ehk kuvada välja andmed, mis läksid varasemas töös andmebaasi.
