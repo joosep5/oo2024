@@ -56,6 +56,25 @@ function App() {
       })
   }
 
+  // function lisa2() {
+  //   if (nimiRef.current.value.trim() === "") {
+  //     return;
+  //   }
+  //   fetch("http://localhost:8080/api/toiduained/" 
+  //         + nimiRef.current.value + "/"
+  //         + valkRef.current.value + "/"
+  //         + rasvRef.current.value + "/"
+  //         + sysivesikRef.current.value, 
+  //   {
+  //     "method": "POST"
+  //   })
+  //     .then(response => response.json()) 
+  //     .then(json => {
+  //       setKogus(json.length);
+  //       setToiduained(json);
+  //     })
+  // }
+
   return (
     <div className="App">
       Mul on {kogus} toiduainet

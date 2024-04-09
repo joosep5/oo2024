@@ -23,7 +23,7 @@ Ajakava:
 
 16.04 veebis kell 10.15-13.45 (RestTemplate ehk päring teise rakendusse)
 
-23.04 A406 kell 12.30-15.45 (proovikontrolltöö 1)
+23.04 A406 kell 12.15-15.45 (proovikontrolltöö 1)
 
 30.04 veebis kell 10.15-13.45 (proovikontrolltöö 2)
 
