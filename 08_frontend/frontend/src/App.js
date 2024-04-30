@@ -36,6 +36,11 @@ function App() {
     fetch("http://localhost:8080/api/toiduained/" + primaarivoti, {"method": "DELETE"})
       .then(response => response.json()) 
       .then(json => {
+        // console.log(json);
+        if (json.error) {
+          alert("Toiduaine on toidukomponendis kasutusel!"); // toastify
+          return;
+        }
         setKogus(json.length);
         setToiduained(json);
       })
@@ -88,6 +93,10 @@ function App() {
     fetch("http://localhost:8080/toidukomponendid/" + primaarivoti, {"method": "DELETE"})
       .then(response => response.json()) 
       .then(json => {
+        if (json.error) {
+          alert("Toidukomponent on toidus kasutusel!"); // toastify
+          return;
+        }
         setToidukomponendid(json);
       })
   }
@@ -108,7 +117,13 @@ function App() {
     })
       .then(response => response.json()) 
       .then(json => {
-        setToidukomponendid(json);
+        // setToidukomponendid(json);
+        // window.location.reload();
+        fetch("http://localhost:8080/toidukomponendid")
+        .then(response => response.json())
+        .then(json => {
+          setToidukomponendid(json);
+        })
       })
   }
 

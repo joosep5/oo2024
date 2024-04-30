@@ -20,6 +20,9 @@ public class Toidukomponent {
             // seotud toidukomponendid
     ToiduaineEntity toiduaine;
 
+    //@ManyToOne
+    //Toit toit;
+
     //@ManyToMany
     //List<ToiduaineEntity> toiduained;
     int kogus;
