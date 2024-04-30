@@ -19,14 +19,10 @@ Videod: https://drive.google.com/drive/folders/1qfkBzXmc6VwWSqHkeI4SMcPk_SfBvbuo
 
 Ajakava:
 
-09.04 veebis kell 10.15-13.45 (klassikomplekt andmebaasis, custom Repository päringud)
-
-16.04 veebis kell 10.15-13.45 (RestTemplate ehk päring teise rakendusse)
-
-23.04 A406 kell 12.15-15.45 (proovikontrolltöö 1)
-
-30.04 veebis kell 10.15-13.45 (proovikontrolltöö 2)
-
 07.05 A406 kell 12.15-15.45 (kontrolltöö 2)
 
-14.05 veebis kell 10.15-13.45 (seminar)
+14.05 veebis kell 10.15-13.45 (seminar - vabalt valitud teemal ülevaade) 
+
+Eksam: tulete oma suvalise koodilõiguga (võib olla JavaScriptis, PHPs), mis võiks kuuluda suveprojekti sisse.
+
+Jaagup Kippar, palub selgitust koodilõigu osas ja ütleb, et tee 3 muudatust.
