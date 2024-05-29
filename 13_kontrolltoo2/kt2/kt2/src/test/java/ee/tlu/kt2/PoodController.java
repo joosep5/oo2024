@@ -59,5 +59,6 @@ public class PoodController {
         return Arrays.stream(response.getBody())
                 .map(Tootaja::getEmail)
                 .collect(Collectors.toList());
+
     }
 }

@@ -8,7 +8,7 @@ function App() {
   const nimiRef = useRef();
   const avamineRef = useRef();
   const sulgemineRef = useRef();
-  const kulastajadRef = useRef();
+  const kulastamineRef = useRef();
 
   useEffect(() => {
     fetch("http://localhost:8080/pood")
@@ -31,7 +31,7 @@ function App() {
       "nimetus": nimiRef.current.value,
       "avamine": avamineRef.current.value,
       "sulgemine": sulgemineRef.current.value,
-      "külastajad": kulastajadRef.current.value
+      "külastajad": kulastamineRef.current.value
     }
     fetch("http://localhost:8080/pood", 
     {
@@ -56,7 +56,7 @@ function App() {
       <label>Sulgemine</label> <br/>
       <input ref={sulgemineRef} type="text" /> <br/>
       <label>Külastajad</label> <br/>
-      <input ref={kulastajadRef} type="number" /> <br/>
+      <input ref={kulastamineRef} type="number" /> <br/>
       <button onClick={() => lisa()}>Lisa</button> <br/>
       <br/>
       Poodide nimekiri ({poed.length}):
